@@ -1,0 +1,30 @@
+    6  git log
+    7  cd Desktop
+    8  cd Es_Verifica_Petrini
+    9  git clone https://github.com/sena-meucci/niceTeam.git
+   10  code .
+   11  git log
+   12  git init
+   13  cd niceteam
+   14  cd niceTeam
+   15  git log
+   16  cd Desktop\Es_2_Verifica_Petrini
+   17  cd Desktop
+   18  cd Es_2_Verifica_Petrini
+   19  git clone https://github.com/sena-meucci/progettoStampa.git
+   20  code .
+   21  git config user.name Giacomo Petrini
+   22  git config user.name "Giacomo Petrini"
+   23  git init
+   24  git config user.name Giacomo Petrini
+   25  git config user.email giacomopetrini2006@gmail.com
+   26  git add .
+   27  git commit -m "inserito nome"
+   28  git branch BugFix
+   29  git checkout BugFix
+   30  git add .
+   31  git commit -m "errore risolto in stampa"
+   32  git checkout master
+   33  git merge BugFix
+   34  git branch -d BugFix
+   35  history 30 > comandi.txt
